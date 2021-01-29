@@ -3,7 +3,7 @@
     "description": "PHP wrapper for Switchvox API, Forked from Shrimpwagon",
     "homepage": "http://github.com/chinasearch/digium-switchvox-api",
     "keywords": ["digium", "switchvox", "xml", "json", "api"],
-    "version": "v1.1.0",
+    "version": "v1.1.1",
     "require": {
         "dcarbone/xml-writer-plus" : "0.4.*",
         "nategood/httpful": "^0.2.20"

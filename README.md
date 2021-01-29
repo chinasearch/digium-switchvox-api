@@ -73,7 +73,7 @@ Digium Switchvox API is PSR-0 compliant and can be installed using [composer](ht
 
     {
         "require": {
-            "chinasarech/digium-switchvox-api": "v1.1.0"
+            "chinasarech/digium-switchvox-api": "*"
         }
     }
 
@@ -97,3 +97,7 @@ Digium Switchvox API highly encourages sending in pull requests.  When submittin
 ## 1.1.0
 
  - Change DIGEST auth to BASIC
+
+## 1.1.1
+
+ - Version bump
