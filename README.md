@@ -1,7 +1,5 @@
 # Digium Switchvox API
 
-[![Build Status](https://secure.travis-ci.org/shrimpwagon/digium-switchvox-api.png?branch=master)](http://travis-ci.org/shrimpwagon/digium-switchvox-api) [![Latest Stable Version](https://poser.pugx.org/shrimpwagon/digium-switchvox-api/v/stable)](https://packagist.org/packages/shrimpwagon/digium-switchvox-api) [![Total Downloads](https://poser.pugx.org/shrimpwagon/digium-switchvox-api/downloads)](https://packagist.org/packages/shrimpwagon/digium-switchvox-api) [![License](https://poser.pugx.org/shrimpwagon/digium-switchvox-api/license)](https://packagist.org/packages/shrimpwagon/digium-switchvox-api)
-
 PHP wrapper for the Digium Switchvox API.
 
 # Features
@@ -71,11 +69,11 @@ The `uri` property for this client and the phpunit.xml file is pre-populated wit
 
 ## Composer
 
-Digium Switchvox API is PSR-0 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `shrimpwagon/digium-switchvox-api` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
+Digium Switchvox API is PSR-0 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `chinasearch/digium-switchvox-api` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
 
     {
         "require": {
-            "shrimpwagon/digium-switchvox-api": "*"
+            "chinasarech/digium-switchvox-api": "v1.1.0"
         }
     }
 
@@ -96,3 +94,6 @@ Digium Switchvox API highly encourages sending in pull requests.  When submittin
 
  - Basic funcationality to call API methods with XML or JSON
 
+## 1.1.0
+
+ - Change DIGEST auth to BASIC
